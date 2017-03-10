@@ -22,7 +22,7 @@
 
     <body>
         <div class="container-fixed">
-            <header>
+            <header role="header">
                 <!-- Start Top Bar -->
                 <div class="top-bar">
                     <div class="container-fluid">
@@ -54,7 +54,7 @@
 
                 <!-- Start Nav Bar -->
                 <div class="nav-bar">
-                    <nav class="navbar navbar-custom">
+                    <nav class="navbar navbar-custom" role="navigation">
                         <div class="container-fluid">
                             <div class="col-md-3 navbar-header custom-navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -184,13 +184,13 @@
                         <form class="form-inline">
                             <div class="col-md-8">
                                 <div class="form-group silder-bottom-form-group inner-addon right-addon">
-                                    <label  for="inlineFormInput">Location</label>
+                                    <label  for="Location">Location</label>
                                     <input type="text" class="form-control" id="d" placeholder="">
                                     <i class="glyphicon glyphicon-map-marker"></i>
                                 </div>
 
                                 <div class="form-group silder-bottom-form-group inner-addon right-addon">
-                                    <label  for="inlineFormInput">Date</label>
+                                    <label  for="Date">Date</label>
                                     <input type="text" class="form-control" id="d" placeholder="">
                                     <i class="glyphicon glyphicon-calendar"></i>
                                 </div>
@@ -205,245 +205,247 @@
             <!-- End Slider-->
 
             <div class="clear"></div>
-
-            <!--  Start Panel -->
-            <div class="panel1">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h3>Our Menus</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+            
+            <main role="main">
+                <!--  Start Panel -->
+                <div class="panel1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3>Our Menus</h3>
+                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="clear"></div>
+                <div class="clear"></div>
 
-            <div class="panel2">
-                <div class="container-fluid">
-                    <div class="flexslider carousel">
-                        <ul class="slides">
-                            <li>
-                                <img src="image/kitchen_adventurer_cheesecake_brownie.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
+                <div class="panel2">
+                    <div class="container-fluid">
+                        <div class="flexslider carousel">
+                            <ul class="slides">
+                                <li>
+                                    <img src="image/kitchen_adventurer_cheesecake_brownie.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                    </div>                          
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_lemon.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div> 
                                     </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_donut.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
                                     </div>
-                                </div>                          
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_lemon.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_caramel.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
                                     </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_cheesecake_brownie.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_lemon.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_donut.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="image/kitchen_adventurer_caramel.jpg" alt="cake"/>
+                                    <div class="flex-caption col-md-12">
+                                        <div class="col-md-10 text-left">
+                                            <h4>Lorem ipsum</h4>
+                                            <h6>Lorem ipsum</h6>
+                                        </div>
+                                        <div class="col-md-2 custom-icon">
+                                            <span class="glyphicon glyphicon-chevron-down"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="panel3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3>Special Menus</h3>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="col-md-4">
+                                    <div class="box">							
+                                        <div class="icon">
+                                            <div class="image"><i class="fa fa-cutlery"></i></div>
+                                            <div class="info">
+                                                <h3 class="title">Menu I</h3>
+                                                <ul class="text-left">
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                                <div class="more">
+                                                    <a href="#" title="Title Link">
+                                                        Read More <i class="fa fa-angle-double-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="space"></div>
                                     </div> 
                                 </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_donut.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_caramel.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_cheesecake_brownie.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_lemon.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_donut.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="image/kitchen_adventurer_caramel.jpg" alt="cake"/>
-                                <div class="flex-caption col-md-12">
-                                    <div class="col-md-10 text-left">
-                                        <h4>Lorem ipsum</h4>
-                                        <h6>Lorem ipsum</h6>
-                                    </div>
-                                    <div class="col-md-2 custom-icon">
-                                        <span class="glyphicon glyphicon-chevron-down"></span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>  
-                    </div>
-                </div>
-            </div>
-
-            <div class="clear"></div>
-
-            <div class="panel3">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h3>Special Menus</h3>
-                        </div>
-                        <div class="col-md-12 text-center">
-                            <div class="col-md-4">
-                                <div class="box">							
-                                    <div class="icon">
-                                        <div class="image"><i class="fa fa-cutlery"></i></div>
-                                        <div class="info">
-                                            <h3 class="title">Menu I</h3>
-                                            <ul class="text-left">
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                            </ul>
-                                            <div class="more">
-                                                <a href="#" title="Title Link">
-                                                    Read More <i class="fa fa-angle-double-right"></i>
-                                                </a>
+                                <div class="col-md-4">
+                                    <div class="box">							
+                                        <div class="icon">
+                                            <div class="image"><i class="fa fa-cutlery"></i></div>
+                                            <div class="info">
+                                                <h3 class="title">Menu II</h3>
+                                                <ul class="text-left">
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                                <div class="more">
+                                                    <a href="#" title="Title Link">
+                                                        Read More <i class="fa fa-angle-double-right"></i>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="space"></div>
-                                </div> 
+                                        <div class="space"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box">							
+                                        <div class="icon">
+                                            <div class="image"><i class="fa fa-cutlery"></i></div>
+                                            <div class="info">
+                                                <h3 class="title">Menu III</h3>
+                                                <ul class="text-left">
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                                <div class="more">
+                                                    <a href="#" title="Title Link">
+                                                        Read More <i class="fa fa-angle-double-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="space"></div>
+                                    </div> 
+                                </div>                          
                             </div>
-                            <div class="col-md-4">
-                                <div class="box">							
-                                    <div class="icon">
-                                        <div class="image"><i class="fa fa-cutlery"></i></div>
-                                        <div class="info">
-                                            <h3 class="title">Menu II</h3>
-                                            <ul class="text-left">
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                            </ul>
-                                            <div class="more">
-                                                <a href="#" title="Title Link">
-                                                    Read More <i class="fa fa-angle-double-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="space"></div>
-                                </div> 
-                            </div>
-                            <div class="col-md-4">
-                                <div class="box">							
-                                    <div class="icon">
-                                        <div class="image"><i class="fa fa-cutlery"></i></div>
-                                        <div class="info">
-                                            <h3 class="title">Menu III</h3>
-                                            <ul class="text-left">
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                            </ul>
-                                            <div class="more">
-                                                <a href="#" title="Title Link">
-                                                    Read More <i class="fa fa-angle-double-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="space"></div>
-                                </div> 
-                            </div>                          
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="clear"></div>
+                <div class="clear"></div>
 
-            <div class="panel1">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h3>Client's Feedback</h3>
-                            <div class="col-md-8 col-md-offset-2 custom-border" >                                
-                                <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
-                                    <!-- Carousel indicators -->
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-                                        <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-                                        <li data-target="#fade-quote-carousel" data-slide-to="2" ></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="active item">
-                                            <span class="fa-stack fa-3x">
-                                                <i class="fa fa-circle fa-stack-2x icon-background1"></i>
-                                                <i class="fa fa-user fa-stack-1x"></i>
-                                            </span>
-                                            <blockquote>
-                                                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                            </blockquote>	
-                                        </div>
-                                        <div class="item">
-                                            <span class="fa-stack fa-3x">
-                                                <i class="fa fa-circle fa-stack-2x icon-background1"></i>
-                                                <i class="fa fa-user fa-stack-1x"></i>
-                                            </span>
-                                            <blockquote>
-                                                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                            </blockquote>
-                                        </div>
-                                        <div class="item">
-                                            <span class="fa-stack fa-3x">
-                                                <i class="fa fa-circle fa-stack-2x icon-background1"></i>
-                                                <i class="fa fa-user fa-stack-1x"></i>
-                                            </span>
-                                            <blockquote>
-                                                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                            </blockquote>
+                <div class="panel1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3>Client's Feedback</h3>
+                                <div class="col-md-8 col-md-offset-2 custom-border" >                                
+                                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                                        <!-- Carousel indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                            <li data-target="#fade-quote-carousel" data-slide-to="2" ></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="active item">
+                                                <span class="fa-stack fa-3x">
+                                                    <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                                                    <i class="fa fa-user fa-stack-1x"></i>
+                                                </span>
+                                                <blockquote>
+                                                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>	
+                                            </div>
+                                            <div class="item">
+                                                <span class="fa-stack fa-3x">
+                                                    <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                                                    <i class="fa fa-user fa-stack-1x"></i>
+                                                </span>
+                                                <blockquote>
+                                                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>
+                                            </div>
+                                            <div class="item">
+                                                <span class="fa-stack fa-3x">
+                                                    <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                                                    <i class="fa fa-user fa-stack-1x"></i>
+                                                </span>
+                                                <blockquote>
+                                                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                                </blockquote>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -451,9 +453,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- end Panel -->
-
+                <!-- end Panel -->
+            </main>
+            
             <div class="clear"></div>
 
             <!-- start footer-->
